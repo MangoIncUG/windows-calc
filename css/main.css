@@ -1,0 +1,57 @@
+.cal-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; 
+  height: 100vh; */
+
+}
+
+.cal-box {
+  background: #eaeaea;
+  border: 1px solid #bd0202;
+  width: 305px;
+  margin:82px 0px;
+  padding:1px;
+  box-shadow: 0px 0px 9px 1px #00000094;
+}
+
+
+
+/* screen */
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+}
+
+.screen p{
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: 0px 8px;
+}
+
+.buttons-box {
+    display: grid;
+    grid: auto / 25% 25%  25% 25%;
+}
+
+.buttons-box button{
+    height: 50px;
+    margin: 1px;
+    border: 1px;
+    border-radius: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.buttons-box button.number{
+    background: rgb(250, 250, 250);
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.buttons-box button:hover{
+    background: rgba(75, 75, 75, 0.329);
+}
