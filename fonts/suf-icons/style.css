@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'suf-icons';
+  src:  url('fonts/suf-icons.eot?4csrws');
+  src:  url('fonts/suf-icons.eot?4csrws#iefix') format('embedded-opentype'),
+    url('fonts/suf-icons.ttf?4csrws') format('truetype'),
+    url('fonts/suf-icons.woff?4csrws') format('woff'),
+    url('fonts/suf-icons.svg?4csrws#suf-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'suf-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.suf-point:before {
+  content: "\e909";
+}
+.suf-divide:before {
+  content: "\e908";
+}
+.suf-math-root:before {
+  content: "\e907";
+}
+.suf-backspace:before {
+  content: "\e906";
+}
+.suf-close-2:before {
+  content: "\e900";
+}
+.suf-fraction-1:before {
+  content: "\e901";
+}
+.suf-minimise:before {
+  content: "\e902";
+}
+.suf-restore-window:before {
+  content: "\e903";
+}
+.suf-square:before {
+  content: "\e904";
+}
+.suf-squared:before {
+  content: "\e905";
+}
