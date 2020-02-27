@@ -51,7 +51,7 @@
 
 
 
-.buttons-box button.number {
+.buttons-box button.number:not(.not-number) {
     background: rgb(250, 250, 250);
     font-size: 1.4em;
     font-weight: bold;

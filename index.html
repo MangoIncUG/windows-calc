@@ -8,7 +8,7 @@
     <title>Calculator</title>
      <link rel="stylesheet" href="./fonts/suf-icons/style.css" />
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/main.js"></script>
+    
 </head>
 
 <body>
@@ -22,37 +22,39 @@
                     <span class="icon suf-close-2"></span>
                 </div>
             </div>
-            <div class="screen">
-                <p>0</p>
+            <div class="screen" >
+                <p id="calc-screen" >0</p>
             </div>
             <div class="buttons-box">
-                <button class="number">%</button>
-                <button class="number"><span class="icon suf-math-root"></span></button>
-                <button class="number"><span class="icon suf-squared"></span></button>
-                <button class="number"><span class="icon suf-fraction-1"></span></button>
-                <button>CE</button>
-                <button>C</button>
-                <button><span class="icon suf-backspace"></span></button>
-                <button><span class="icon suf-divide"></span></button>
-                <button class="number">7</button>
-                <button class="number">8</button>
-                <button class="number">9</button>
-                <button>X</button>
-                <button class="number">4</button>
-                <button class="number">5</button>
-                <button class="number">6</button>
-                <button>-</button>
-                <button class="number">1</button>
-                <button class="number">2</button>
-                <button class="number">3</button>
-                <button>+</button>
+                <button >%</button>
+                <button ><span class="icon suf-math-root"></span></button>
+                <button ><span class="icon suf-squared"></span></button>
+                <button ><span class="icon suf-fraction-1"></span></button>
+                <button id="CE-buton" >CE</button>
+                <button id="C-buton">C</button>
+                <button id ="cal-back-space" ><span class="icon suf-backspace"></span></button>
+                <button class="signs" value="/" ><span class="icon suf-divide"></span></button>
+                <button value="7" class="number">7</button>
+                <button value="8" class="number">8</button>
+                <button value="9" class="number">9</button>
+                <button class="signs" value="*" >X</button>
+                <button value="4" class="number">4</button>
+                <button value="5" class="number">5</button>
+                <button value="6" class="number">6</button>
+                <button class="signs" value="-">-</button>
+                <button value="1" class="number">1</button>
+                <button value="2" class="number">2</button>
+                <button value="3" class="number">3</button>
+                <button class="signs" value="+" >+</button>
                 <button>+/-</button>
-                <button class="number">0</button>
-                <button><span style="font-size:4px;" class="icon suf-point"></span></button>
-                <button>=</button>
+                <button value="0" class="number">0</button>
+                <button value="." class="number not-number" ><span style="font-size:4px;" class="icon suf-point"></span></button>
+                <button id="equal-sign" >=</button>
             </div>
         </div>
     </div>
+    <script src="js/main.js"></script>
+    <script src="js/calc.js"></script>
 </body>
 
 </html>
